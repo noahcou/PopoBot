@@ -3,7 +3,7 @@ module.exports = (client, message) => {
   if (message.author.bot) return;
 
   // check if they are doing a command
-  if (message.channel.id != "792622815466881024" && preftrue(client.config.prefix, message, true)) {
+  if (message.channel.id == "792622815466881024" && preftrue(client.config.prefix, message, true)) {
     pref = preftrue(client.config.prefix, message, false)
     const args = message.content.slice(pref.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
