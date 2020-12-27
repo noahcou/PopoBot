@@ -18,17 +18,18 @@ module.exports = (client, message) => {
       console.log("asdf")
       return;
     }
-    
   }
 
   // check if message contains certain things before passing it forward (sorry stuff like that)
-  if (message.content.indexOf("sorry") != -1) {
+  // when someone says sorry
+  if (message.content.toLowerCase().indexOf("sorry") != -1) {
     console.log("They said sorry!")
     message.channel.send("Damn right you are")
     return;
   }
 
-  if (message.content.indexOf("Popo") != -1 || message.content.indexOf("popo") != -1) {
+  // when someone says popo
+  if (message.content.toLowerCase().indexOf("Popo") != -1) {
     console.log("They said Popo")
     rand = Math.floor(Math.random() * 100)
     chance = 35
@@ -39,6 +40,7 @@ module.exports = (client, message) => {
   }
 
   // trigger random events
+  // small chance to tell people to shut up in general
   if (message.channel.id == "792293253512036355") {
     rand = Math.floor(Math.random() * 100)
     chance = 5
@@ -61,7 +63,7 @@ module.exports = (client, message) => {
 
 function preftrue(prefix, message, check) {
   for (x = 0; x < prefix.length; x++) {
-    if (message.content.indexOf(prefix[x]) == 0){
+    if (message.content.toLowerCase().indexOf(prefix[x]) == 0) {
       if (check) {
         return true; 
       } else {
