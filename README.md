@@ -25,3 +25,4 @@
 
 - [ ] Byyyyyyyyeeeeeee(when leaving call)
 - [ ] So. How was it? (When leaving a call in #general)
+- [ ] randomly when Scar and honeybee asks a question in #general, popo says,"oh look, a woman who doesn't know any better. What are the odds"
