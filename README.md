@@ -1,4 +1,6 @@
-# Features
+# Popo Bot
+
+## Features
 
 ### Message Events
 
