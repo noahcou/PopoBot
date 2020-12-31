@@ -16,7 +16,7 @@ client.on("ready", () => {
   // ready message
   console.log(`Bot has started in ${client.guilds.cache.size} guilds.`);
   // custom status
-  client.user.setActivity(`${config.prefix[0]} test`);
+  client.user.setActivity(`${config.prefix[0]} help`);
 });
 
 //event handler
