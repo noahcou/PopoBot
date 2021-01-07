@@ -4,8 +4,9 @@
 
 ### Commands
 
-- [x] Kami. The Fuck am I doing? / Bitch you're lucky you're endearing. (Whenever someone under Maggots (DMs) gives a command in #general)
-- [x] BITCH DON'T TELL ME WHAT TO DO!!!!! / Makin Toast. (Immediately after a second message) Buttering Toast. (try giving him a command)
+- [x] Kami. The Fuck am I doing? / Bitch you're lucky you're endearing. (Whenever someone under Maggots (DMs) gives an invalid command in #general)
+- [x] BITCH DON'T TELL ME WHAT TO DO!!!!! / Makin Toast. (Immediately after a second message) Buttering Toast. (try giving him an invalid command)
+- [x] Give him a special response when I issue an invalid command :)
 
 ### Events
 
@@ -21,7 +22,7 @@
 - [ ] Hahaha! HAHAHA! HAAAAAAAAAAAAHAHAHAAAAAA! (randomly in #general)
 - [ ] I'M SO F***G HIGH RIGHT NOW (Randomly in #general)
 - [ ] All these squares make a circle. All these squares make a circle. All these squares make a circle. (Randomly in #general)
-- [x] Shut up, Maggot! (Random response to people in #general 5%)
+- [x] Shut up, Maggot! (Random response to people in #general 2% (4% was too high, seriously it occurred too often))
 
 ### Random Event
 

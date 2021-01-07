@@ -43,7 +43,7 @@ module.exports = (client, message) => {
   // small chance to tell people to shut up in general
   if (message.channel.id == "792293253512036355") {
     rand = Math.floor(Math.random() * 100)
-    chance = 4
+    chance = 2
     if (rand < chance) {
       console.log("Telling them to shut up")
       message.channel.send("Shut Up Maggot!")

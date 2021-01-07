@@ -12,12 +12,13 @@ exports.run = (client, message, args) => {
     console.log(roles)
     console.log(userRole)
 
-    if (userRole == roleMag) {
+    if (userRole == roleTec) {
+        message.channel.send("You didn't program me to do that dumb ass")
+    } else if (userRole == roleMag) {
         options = ["Kami. The Fuck am I doing?", "Bitch you're lucky you're endearing."]
         message.channel.send(options[Math.floor(Math.random() * options.length)])
     } else {
         options = ["BITCH DON'T TELL ME WHAT TO DO!!!!!", "Makin' Toast.\nButterin' Toast."]
         message.channel.send(options[Math.floor(Math.random() * options.length)])
     }
-
 }
